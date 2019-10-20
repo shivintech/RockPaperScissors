@@ -1,0 +1,40 @@
+/**
+ *   This function changes the character currently displayed on the LED
+ *   matrix when the navswitch is pressed upwards.
+     @param displayed_character The current character displayed on the
+     LED matrix.
+     @return displayed_character The next character displayed in order.
+*/
+
+char navswitch_up (char displayed_character)
+{
+    if (displayed_character == 'P') {
+        displayed_character = 'S';
+    } else if (displayed_character == 'S') {
+        displayed_character = 'R';
+    } else {
+        displayed_character = 'P';
+    }
+    return displayed_character;
+}
+
+/**
+ *   This function changes the character currently displayed on the LED
+ *   matrix when the navswitch is pressed downwards.
+     @param displayed_character The current character displayed on the
+     LED matrix.
+     @return displayed_character The next character displayed in order.
+*/
+
+char navswitch_down (char displayed_character)
+{
+    if (displayed_character == 'P') {
+        displayed_character = 'R';
+    } else if (displayed_character == 'S') {
+        displayed_character = 'P';
+    } else {
+        displayed_character = 'S';
+    }
+    return displayed_character;
+}
+
