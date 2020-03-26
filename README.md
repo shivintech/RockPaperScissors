@@ -1,10 +1,10 @@
-# Paper, Scissors, Rock
+# Rock,Paper, Scissors
 
 Paper, Scissors, Rock is an interactive two player game made using C.
 
 ## UC fun kit setup
 
-In order to ready the fun kit for gameplay it must first be reset and plugged in (Note that the fun kit will need to be reset before the game is run each time not just at setup). To plug the fun kit in
+In order to ready the fun kit(ATMega 32 bit chip) for gameplay it must first be reset and plugged in (Note that the fun kit will need to be reset before the game is run each time not just at setup). To plug the fun kit in
 first the non usb end of the given cord must be inserted into the slot at the top of the fun kit. Next the other end must be inserted into the usb slot of a suitable computer or laptop. A green light on the fun kit
 will light up to indicate that it has been plugged in correctly. If the light doesn't turn on check that the cables have been inserted correctly before using a different usb slot and or computer/laptop. To reset the
 fun kit the button S2 must be pressed (This button is on the right side of the fun kit above the navswitch when it is held upright).
