@@ -1,4 +1,4 @@
-# Rock,Paper, Scissors
+# Rock, Paper, Scissors
 
 Paper, Scissors, Rock is an interactive two player game made using C.
 
